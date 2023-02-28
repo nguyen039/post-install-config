@@ -6,10 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -20,31 +16,45 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Login Pages
+
+- Make sure to have two sites on your browser: osTicket login and the user login.
+- http://localhost/osTicket/scp/login.php
+- http://localhost/osTicket/
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+<hr>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure Roles
+
+- Login into osTicket and make sure you are on the "Admin" panel. You can check if you are on the "Admin" panel if "Agent Panel" is located to the right of your username.
+- Click on "Agents" -> Roles -> "Add New Role"
+- Add necessary details like name and check whatever permissions you want on the permissions tab.
+
+</p>
+<img src="https://i.imgur.com/3f9s1i3.png" width="80%" alt="roles"/>
+</p>
+
+<hr>
+
+<p>
+Configure Departments
+
+- On the "Admin" panel, click on "Agents" -> "Departments" -> "Add New Department"
+- Create some departments like for "Support" and "System Administrators"
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/YLQJvBS.png" height="80%" width="80%" alt="deparment"/>
 </p>
-<br />
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
