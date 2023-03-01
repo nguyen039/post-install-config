@@ -54,12 +54,67 @@ Configure Departments
 <img src="https://i.imgur.com/YLQJvBS.png" height="80%" width="80%" alt="deparment"/>
 </p>
 
-
+<hr>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure Teams
+  
+- Click on "Agents" -> Teams
+- Input details for creating teams, in which having teams would help agents organize tickets better
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/XFlJyo9.png" height="80%" width="80%" alt="teams"/>
 </p>
-<br />
+
+<hr>
+
+<p>
+Configure Agents
+  
+- Click on "Agents" -> "Agents" -> "Create New Agent"
+- Create agents who will be responsible for to respond and resolve tickets
+  
+</p>
+<p>
+<img src="https://i.imgur.com/xWIX67y.png" height="80%" width="80%" alt="agent"/>
+</p>
+
+<hr>
+
+<p>
+Configure SLA & Help Topics
+  
+- Click on "Manage" -> "SLA" -> "Add New SLA Plan"
+- Input details like a name like "SEV-A" (highest severity or importance)
+- For help topics, click on "Help Topics", which is part of "Manage"
+- Then add details after clicking "Add New Help Topic"
+  
+</p>
+<p>
+<img src="https://i.imgur.com/sckxHtZ.png" height="80%" width="80%" alt="sla"/>
+</p>
+
+<hr>
+
+<p>
+Configure osTicket
+  
+- Go to "Settings" -> "Users"
+- Check the box to the left of "Require registration and login to create tickets"
+  
+</p>
+
+<hr>
+
+<p>
+Configure Users
+
+- Switch into the "Agent" panel
+- Click on "Users" -> "Add User"
+- Input options: a user's email address and full name
+
+</p>
+<p>
+<img src="https://i.imgur.com/Ck91MIi.png" height="80%" width="80%" alt="sla"/>
+</p>
